@@ -1,5 +1,5 @@
 # RPGlibraryAllegro
-A proyecto for Library RPG with allegro.
+A project for Library RPG with allegro.
 
 0. update first before install all the needed packages
 
