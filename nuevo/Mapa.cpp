@@ -114,7 +114,12 @@ Mapa::~Mapa(){
 }
 
 void Mapa::TocarMusica(void){
-	play_sample(Musica, 255, 127, 1000, true);
+	try{
+		if(Musica!=nullptr)
+		play_sample(Musica, 255, 127, 1000, true);
+	}catch(int e){
+	
+	}
 }
 
 void Mapa::PararMusica(void){
